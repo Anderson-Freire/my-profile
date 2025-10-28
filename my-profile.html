@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portifólio</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <div class="main-container">
+    <nav>
+      <div class="max-content nav-content">
+        <div class="logo">
+          <h3>Anderson Freire</h3>
+        </div>
+        <button class="hamburguer" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+          <span class="hamburguer-box">
+            <span class="hamburguer-inner"></span>
+          </span>
+        </button>
+        <div class="nav-links" id="main-nav">
+          <ul>
+            <li class="nav-item"></li><a href="#project">
+              <svg class="icons nav-list" version="1.1" viewBox="0 0 20 16" xmlns="http://www.w3.org/2000/svg"
+                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title />
+                <desc />
+                <defs />
+                <g fill-rule="evenodd" stroke="none" stroke-width="1">
+                  <g transform="translate(-128.000000, -256.000000)">
+                    <g transform="translate(128.000000, 256.000000)">
+                      <path
+                        d="M18,2 L10,2 L8,0 L2,0 C0.9,0 0,0.9 0,2 L0,14 C0,15.1 0.9,16 2,16 L18,16 C19.1,16 20,15.1 20,14 L20,4 C20,2.9 19.1,2 18,2 L18,2 Z M13,5 C14.1,5 15,5.9 15,7 C15,8.1 14.1,9 13,9 C11.9,9 11,8.1 11,7 C11,5.9 11.9,5 13,5 L13,5 Z M17,13 L9,13 L9,12 C9,10.7 11.7,10 13,10 C14.3,10 17,10.7 17,12 L17,13 L17,13 Z" />
+                    </g>
+                  </g>
+                </g>
+              </svg>Meus projetos
+            </a></li>
+            <li class="nav-item"> <a href="#about">
+                <svg class="icons nav-list" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                  <title />
+                  <path
+                    d="M332.64,64.58C313.18,43.57,286,32,256,32c-30.16,0-57.43,11.5-76.8,32.38-19.58,21.11-29.12,49.8-26.88,80.78C156.76,206.28,203.27,256,256,256s99.16-49.71,103.67-110.82C361.94,114.48,352.34,85.85,332.64,64.58Z" />
+                  <path
+                    d="M432,480H80A31,31,0,0,1,55.8,468.87c-6.5-7.77-9.12-18.38-7.18-29.11C57.06,392.94,83.4,353.61,124.8,326c36.78-24.51,83.37-38,131.2-38s94.42,13.5,131.2,38c41.4,27.6,67.74,66.93,76.18,113.75,1.94,10.73-.68,21.34-7.18,29.11A31,31,0,0,1,432,480Z" />
+                </svg>Sobre mim
+              </a></li>
+            <li class="nav-item"><a href="https://www.linkedin.com/in/anderson-freire-6b5594209/" target="_blank">
+                <svg class="icons nav-list"
+                  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1"
+                  viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+                </svg>Linkedin
+              </a></li>
+            <li class="nav-item"><a href="https://github.com/Anderson-Freire" target="_blank">
+                <svg class="icons nav-list" enable-background="new 0 0 32 32" version="1.0" viewBox="0 0 32 32"
+                  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path clip-rule="evenodd"
+                    d="M16.003,0C7.17,0,0.008,7.162,0.008,15.997  c0,7.067,4.582,13.063,10.94,15.179c0.8,0.146,1.052-0.328,1.052-0.752c0-0.38,0.008-1.442,0-2.777  c-4.449,0.967-5.371-2.107-5.371-2.107c-0.727-1.848-1.775-2.34-1.775-2.34c-1.452-0.992,0.109-0.973,0.109-0.973  c1.605,0.113,2.451,1.649,2.451,1.649c1.427,2.443,3.743,1.737,4.654,1.329c0.146-1.034,0.56-1.739,1.017-2.139  c-3.552-0.404-7.286-1.776-7.286-7.906c0-1.747,0.623-3.174,1.646-4.292C7.28,10.464,6.73,8.837,7.602,6.634  c0,0,1.343-0.43,4.398,1.641c1.276-0.355,2.645-0.532,4.005-0.538c1.359,0.006,2.727,0.183,4.005,0.538  c3.055-2.07,4.396-1.641,4.396-1.641c0.872,2.203,0.323,3.83,0.159,4.234c1.023,1.118,1.644,2.545,1.644,4.292  c0,6.146-3.74,7.498-7.304,7.893C19.479,23.548,20,24.508,20,26c0,2,0,3.902,0,4.428c0,0.428,0.258,0.901,1.07,0.746  C27.422,29.055,32,23.062,32,15.997C32,7.162,24.838,0,16.003,0z"
+                    fill-rule="evenodd" />
+                </svg>Github
+              </a></li>
+            <li class="nav-item email-cell"><a href="mailto:andersongomesfreire566788@gmail.com" target="_blank">
+                <svg class="icons nav-list" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M256 352c-16.53 0-33.06-5.422-47.16-16.41L0 173.2V400C0 426.5 21.49 448 48 448h416c26.51 0 48-21.49 48-48V173.2l-208.8 162.5C289.1 346.6 272.5 352 256 352zM16.29 145.3l212.2 165.1c16.19 12.6 38.87 12.6 55.06 0l212.2-165.1C505.1 137.3 512 125 512 112C512 85.49 490.5 64 464 64h-416C21.49 64 0 85.49 0 112C0 125 6.01 137.3 16.29 145.3z" />
+                </svg>Email
+              </a></li>
+            <li class="nav-item email-pc"><a href="#contact-me">
+                <svg class="icons nav-list" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M256 352c-16.53 0-33.06-5.422-47.16-16.41L0 173.2V400C0 426.5 21.49 448 48 448h416c26.51 0 48-21.49 48-48V173.2l-208.8 162.5C289.1 346.6 272.5 352 256 352zM16.29 145.3l212.2 165.1c16.19 12.6 38.87 12.6 55.06 0l212.2-165.1C505.1 137.3 512 125 512 112C512 85.49 490.5 64 464 64h-416C21.49 64 0 85.49 0 112C0 125 6.01 137.3 16.29 145.3z" />
+                </svg>Email
+              </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="max-content content">
+        <div class="image">
+          <img src="images/anderson-profile-photo.jpg" alt="eu" class="profile-image">
+        </div>
+        <div class="header-text">
+          <h3 class="subtitle">Me chamo <div class="my-name"><strong>Anderson</strong></div>
+          </h3>
+          <h1>Desenvolvedor Backend</h1>
+          <p class="header-desc">Transformo ideias em código.
+            Unindo design e desenvolvimento, crio experiências digitais que falam por si.</p>
+          <div class="header-buttons buttons">
+            <a href="https://wa.link/bpqgf7" target="_blank" class="btn main-button">Vamos conversar
+              <svg class="icon main-button"
+                style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1"
+                viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M373.295,307.064c-6.37,-3.188 -37.687,-18.596 -43.526,-20.724c-5.838,-2.126 -10.084,-3.187 -14.331,3.188c-4.246,6.376 -16.454,20.725 -20.17,24.976c-3.715,4.251 -7.431,4.785 -13.8,1.594c-6.37,-3.187 -26.895,-9.913 -51.225,-31.616c-18.935,-16.89 -31.72,-37.749 -35.435,-44.126c-3.716,-6.377 -0.397,-9.824 2.792,-13c2.867,-2.854 6.371,-7.44 9.555,-11.16c3.186,-3.718 4.247,-6.377 6.37,-10.626c2.123,-4.252 1.062,-7.971 -0.532,-11.159c-1.591,-3.188 -14.33,-34.542 -19.638,-47.298c-5.171,-12.419 -10.422,-10.737 -14.332,-10.934c-3.711,-0.184 -7.963,-0.223 -12.208,-0.223c-4.246,0 -11.148,1.594 -16.987,7.969c-5.838,6.377 -22.293,21.789 -22.293,53.14c0,31.355 22.824,61.642 26.009,65.894c3.185,4.252 44.916,68.59 108.816,96.181c15.196,6.564 27.062,10.483 36.312,13.418c15.259,4.849 29.145,4.165 40.121,2.524c12.238,-1.827 37.686,-15.408 42.995,-30.286c5.307,-14.882 5.307,-27.635 3.715,-30.292c-1.592,-2.657 -5.838,-4.251 -12.208,-7.44m-116.224,158.693l-0.086,0c-38.022,-0.015 -75.313,-10.23 -107.845,-29.535l-7.738,-4.592l-80.194,21.037l21.405,-78.19l-5.037,-8.017c-21.211,-33.735 -32.414,-72.726 -32.397,-112.763c0.047,-116.825 95.1,-211.87 211.976,-211.87c56.595,0.019 109.795,22.088 149.801,62.139c40.005,40.05 62.023,93.286 62.001,149.902c-0.048,116.834 -95.1,211.889 -211.886,211.889m180.332,-392.224c-48.131,-48.186 -112.138,-74.735 -180.335,-74.763c-140.514,0 -254.875,114.354 -254.932,254.911c-0.018,44.932 11.72,88.786 34.03,127.448l-36.166,132.102l135.141,-35.45c37.236,20.31 79.159,31.015 121.826,31.029l0.105,0c140.499,0 254.87,-114.366 254.928,-254.925c0.026,-68.117 -26.467,-132.166 -74.597,-180.352" />
+              </svg>
+            </a>
+            <a href="curriculum/Anderson-currículo.backend.pdf" target="_blank" class="btn curriculum-btn main-button">
+              Baixar curriculo
+              <svg class="icon main-button" version="1.1" viewBox="0 0 512 512" xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                  d="M383.6,322.7L278.6,423c-5.8,6-13.7,9-22.4,9c-8.7,0-16.5-3-22.4-9L128.4,322.7c-12.5-11.9-12.5-31.3,0-43.2  c12.5-11.9,32.7-11.9,45.2,0l50.4,48.2v-217c0-16.9,14.3-30.6,32-30.6c17.7,0,32,13.7,32,30.6v217l50.4-48.2  c12.5-11.9,32.7-11.9,45.2,0C396.1,291.4,396.1,310.7,383.6,322.7z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="bar">
+      <span>JavaScript</span>
+      <span>TypeScript</span>
+      <span>Node.js</span>
+      <span>NestJS</span>
+      <span>Angular</span>
+      <span>Docker</span>
+    </div>
+    <main class="max-content">
+      <section class="about-me" id="about">
+        <h1 class="main-title skills">Minhas Skills</h1>
+        <div class="about-me-content">
+          <div class="service-item">
+            <svg class="service-icon" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <style>
+                </style>
+              </defs>
+              <title />
+              <rect />
+              <circle />
+              <circle />
+              <circle />
+              <path
+                d="M20,30.25l3-3a1,1,0,1,0-1.42-1.42l-3.72,3.73a1,1,0,0,0,0,1.41l3.72,3.73a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.41Z" />
+              <path
+                d="M34.32,34.68a1,1,0,0,0,1.41,0L39.46,31a1,1,0,0,0,0-1.41l-3.73-3.73a1,1,0,0,0-1.41,1.42l3,3-3,3A1,1,0,0,0,34.32,34.68Z" />
+              <path d="M31,26.15a1,1,0,0,0-1.37.37L25.94,33a1,1,0,1,0,1.73,1l3.73-6.45A1,1,0,0,0,31,26.15Z" />
+              <path
+                d="M55.86,40a.29.29,0,0,1-.27-.19,10.43,10.43,0,0,0-1.67-2.89.29.29,0,0,1,0-.33,2.3,2.3,0,0,0-.84-3.14L52.33,33V14.74a3,3,0,0,0-3-3H8a3,3,0,0,0-3,3V40.08a2.34,2.34,0,0,0,2.33,2.33H21l-1,3.7H18.67a4.33,4.33,0,0,0-4.21,3.33H12a1,1,0,0,0,0,2H37.47a2.12,2.12,0,0,0,.07.71,2.25,2.25,0,0,0,1.07,1.4l2.11,1.22a2.3,2.3,0,0,0,3.14-.85.31.31,0,0,1,.31-.14,9.74,9.74,0,0,0,3.32,0,.3.3,0,0,1,.31.15,2.3,2.3,0,0,0,2,1.14,2.27,2.27,0,0,0,1.15-.3l2.11-1.22a2.29,2.29,0,0,0,1.07-1.4,2.26,2.26,0,0,0-.23-1.74.3.3,0,0,1,0-.34,10.52,10.52,0,0,0,1.67-2.88.28.28,0,0,1,.27-.19,2.31,2.31,0,0,0,2.3-2.3V42.26A2.3,2.3,0,0,0,55.86,40ZM7,14.74a1,1,0,0,1,1-1H49.33a1,1,0,0,1,1,1v3H7Zm.33,25.67A.33.33,0,0,1,7,40.08V19.74H50.33V32A2.29,2.29,0,0,0,47.8,33h0a.29.29,0,0,1-.3.13,10.27,10.27,0,0,0-3.32,0,.28.28,0,0,1-.3-.13h0a2.29,2.29,0,0,0-3.14-.84l-2.11,1.22a2.24,2.24,0,0,0-1.07,1.39,2.32,2.32,0,0,0,.22,1.75.27.27,0,0,1,0,.33,10.43,10.43,0,0,0-1.67,2.89.29.29,0,0,1-.27.19,2.29,2.29,0,0,0-1.36.45ZM34,46.11H22l1-3.7H33.5V44.7A2.32,2.32,0,0,0,34,46.11Zm-15.32,2H36.48a11,11,0,0,0,.78,1.33H16.57A2.33,2.33,0,0,1,18.67,48.11ZM56.16,44.7a.3.3,0,0,1-.3.3,2.31,2.31,0,0,0-2.15,1.48,8.46,8.46,0,0,1-1.34,2.33,2.31,2.31,0,0,0-.21,2.6.26.26,0,0,1,0,.22.29.29,0,0,1-.14.19L49.94,53a.3.3,0,0,1-.41-.12,2.31,2.31,0,0,0-2.37-1.11,7.92,7.92,0,0,1-2.66,0,2.31,2.31,0,0,0-2.37,1.12.31.31,0,0,1-.41.11l-2.11-1.22a.29.29,0,0,1-.14-.19.26.26,0,0,1,0-.22,2.33,2.33,0,0,0-.21-2.6,8.35,8.35,0,0,1-1.35-2.33A2.28,2.28,0,0,0,35.8,45a.3.3,0,0,1-.3-.3V42.26a.29.29,0,0,1,.3-.3,2.3,2.3,0,0,0,2.14-1.48,8.21,8.21,0,0,1,1.35-2.33,2.33,2.33,0,0,0,.21-2.6.28.28,0,0,1,0-.23.26.26,0,0,1,.14-.18l2.11-1.22a.28.28,0,0,1,.15,0,.3.3,0,0,1,.25.14h0a2.32,2.32,0,0,0,2.37,1.12,7.92,7.92,0,0,1,2.66,0A2.33,2.33,0,0,0,49.53,34h0a.29.29,0,0,1,.4-.1l2.11,1.22a.26.26,0,0,1,.14.18.28.28,0,0,1,0,.23,2.3,2.3,0,0,0,.21,2.59,8.51,8.51,0,0,1,1.34,2.34A2.32,2.32,0,0,0,55.86,42a.29.29,0,0,1,.3.3Z" />
+              <path
+                d="M45.83,38.94a4.54,4.54,0,1,0,4.54,4.54A4.54,4.54,0,0,0,45.83,38.94Zm0,7.08a2.54,2.54,0,1,1,2.54-2.54A2.54,2.54,0,0,1,45.83,46Z" />
+            </svg>
+            <p class="service-title">Desenvolvimento de Websites</p>
+          </div>
+          <div class="service-item">
+            <?xml version="1.0"?>
+            <svg class="service-icon" enable-background="new 0 0 64 64" version="1.1" viewBox="0 0 64 64"
+              xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <path
+                d="M19,24h-6c-0.276,0-0.5-0.224-0.5-0.5S12.724,23,13,23h6c0.276,0,0.5,0.224,0.5,0.5S19.276,24,19,24z" />
+              <path
+                d="M16,53c-1.105,0-2,0.895-2,2s0.895,2.001,2,2.001s2-0.896,2-2.001S17.105,53,16,53z M16.707,55.708     c-0.189,0.188-0.439,0.293-0.707,0.293c-0.552,0-1-0.448-1-1.001c0-0.551,0.448-1,1-1c0.551,0,1,0.449,1,1.001     C17,55.268,16.896,55.52,16.707,55.708z" />
+              <path
+                d="M26,36.737V57c0,0.551-0.449,1-1,1H7c-0.551,0-1-0.449-1-1V23c0-0.551,0.449-1,1-1h18     c0.551,0,1,0.449,1,1v10.521l1-0.388V23c0-1.1-0.9-2-2-2H7c-1.1,0-2,0.9-2,2v34c0,1.1,0.9,2,2,2h18c1.1,0,2-0.9,2-2V36.351     L26,36.737z" />
+              <polygon
+                points="24,37.512 24,50 8,50 8,27 24,27 24,34.295 25,33.908 25,26 7,26 7,51 25,51 25,37.124    " />
+              <g>
+                <path
+                  d="M10.747,10H7c-1.1,0-2,0.9-2,2v8.78c0.289-0.261,0.627-0.463,1-0.597V12c0-0.551,0.449-1,1-1h3.564      C10.604,10.659,10.667,10.327,10.747,10z" />
+                <path
+                  d="M57,10H27.253c0.079,0.327,0.143,0.659,0.183,1H57c0.551,0,1,0.449,1,1v32H28v1h30v2      c0,0.551-0.449,1-1,1H28v1h9.246l1.428,5H28v1h15c0.551,0,1,0.449,1,1H28v1h17v-1c0-1.104-0.896-2-2-2h-3.285l-1.43-5H57      c1.1,0,2-0.9,2-2V12C59,10.9,58.1,10,57,10z" />
+                <g>
+                  <path d="M10.5,12H7v8h1v-7h2.564C10.525,12.672,10.5,12.339,10.5,12z" />
+                  <path d="M27.5,12c0,0.339-0.025,0.672-0.064,1H56v28H28v1h29V12H27.5z" />
+                </g>
+              </g>
+              <g>
+                <path
+                  d="M19,19.5c-4.136,0-7.5-3.364-7.5-7.5s3.364-7.5,7.5-7.5s7.5,3.364,7.5,7.5S23.136,19.5,19,19.5z M19,5.5     c-3.584,0-6.5,2.916-6.5,6.5s2.916,6.5,6.5,6.5s6.5-2.916,6.5-6.5S22.584,5.5,19,5.5z" />
+              </g>
+              <path
+                d="M16,44.5c-3.033,0-5.5-2.468-5.5-5.5s2.467-5.5,5.5-5.5s5.5,2.468,5.5,5.5S19.033,44.5,16,44.5z M16,34.5    c-2.481,0-4.5,2.019-4.5,4.5s2.019,4.5,4.5,4.5s4.5-2.019,4.5-4.5S18.481,34.5,16,34.5z" />
+              <g>
+                <g>
+                  <path
+                    d="M41.246,28.691l-20.807,8.055c0.151,0.295,0.271,0.605,0.361,0.932l20.809-8.055      C41.465,29.324,41.341,29.015,41.246,28.691z" />
+                  <path
+                    d="M47,33.5c-3.584,0-6.5-2.916-6.5-6.5s2.916-6.5,6.5-6.5s6.5,2.916,6.5,6.5S50.584,33.5,47,33.5z       M47,21.5c-3.033,0-5.5,2.468-5.5,5.5s2.467,5.5,5.5,5.5s5.5-2.468,5.5-5.5S50.033,21.5,47,21.5z" />
+                </g>
+                <path
+                  d="M25.387,14.854c-0.137,0.307-0.296,0.6-0.474,0.881l16.581,8.883c0.134-0.309,0.293-0.602,0.475-0.881     L25.387,14.854z" />
+              </g>
+            </svg>
+            <p class="service-title">Desenvolvimento de Aplicativos</p>
+          </div>
+          <div class="service-item">
+            <?xml version="1.0"?><svg class="service-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+              <title />
+              <path
+                d="M468.13,108.66H408.77V36.89a5.69,5.69,0,0,0-5.69-5.69H138.54a5.69,5.69,0,0,0-5.69,5.69v63.28h-89a5.69,5.69,0,0,0-5.69,5.69V334.79a5.69,5.69,0,0,0,5.69,5.69h89v92.91a5.69,5.69,0,0,0,5.69,5.69H259.16v36a5.69,5.69,0,0,0,5.69,5.69H359a5.69,5.69,0,0,0,5.69-5.69v-36h38.43a5.69,5.69,0,0,0,5.69-5.69V277.33h59.36a5.69,5.69,0,0,0,5.69-5.69V114.35A5.69,5.69,0,0,0,468.13,108.66Zm-5.69,48.88H343.72V120H462.44Zm-234.91-46v59.76h-178V111.55Zm-178,71.14h178V329.1h-178ZM353.27,406.17H270.54v-24h82.73Zm0,63.25H270.54V417.55h82.73Zm44.12-41.72H364.65V376.5a5.69,5.69,0,0,0-5.69-5.69H264.85a5.69,5.69,0,0,0-5.69,5.69v51.2H144.23V340.48h89a5.68,5.68,0,0,0,5.68-5.69V105.86a5.68,5.68,0,0,0-5.68-5.69h-89V42.58H397.39v66.08H338a5.69,5.69,0,0,0-5.69,5.69V271.64a5.69,5.69,0,0,0,5.69,5.69h59.35ZM343.72,266v-97H462.44v97Z" />
+              <path d="M92.45,219.48h99.23a5.69,5.69,0,0,0,0-11.38H92.45a5.69,5.69,0,0,0,0,11.38Z" />
+              <path d="M92.45,260h99.23a5.69,5.69,0,1,0,0-11.38H92.45a5.69,5.69,0,1,0,0,11.38Z" />
+              <path
+                d="M197.37,294.9a5.69,5.69,0,0,0-5.69-5.69H92.45a5.69,5.69,0,1,0,0,11.37h99.23A5.68,5.68,0,0,0,197.37,294.9Z" />
+              <path d="M439.74,188.55H366.42a5.69,5.69,0,0,0,0,11.38h73.32a5.69,5.69,0,0,0,0-11.38Z" />
+              <path d="M439.74,214.64H366.42a5.69,5.69,0,1,0,0,11.38h73.32a5.69,5.69,0,0,0,0-11.38Z" />
+              <path d="M439.74,240.73H366.42a5.69,5.69,0,1,0,0,11.37h73.32a5.69,5.69,0,1,0,0-11.37Z" />
+            </svg>
+            <p class="service-title">Hospedagem de Sites</p>
+          </div>
+        </div>
+        <div class="about-description">
+          <h1 class="main-title">Sobre Mim</h1>
+          <div class="about-text">
+            <p>
+              Me chamo Anderson, sou <strong>desenvolvedor backend</strong> com foco
+              em <strong>JavaScript</strong>, <strong>TypeScript</strong>,
+              <strong>NestJS</strong> e <strong>Node.js</strong>. Tenho experiência
+              com <strong>Angular</strong>, bancos de dados
+              <strong>SQL Server</strong>, <strong>MySQL</strong> e
+              <strong>PostgreSQL</strong>, além de ferramentas como
+              <strong>Git</strong>, <strong>Docker</strong> e boas práticas<strong>
+                MVC</strong>, <strong>SOLID</strong> e <strong>Clean Code</strong>. Atualmente
+              estou cursando <strong>ADS</strong> e <strong>Web Design</strong>,
+              sempre em busca de aprimorar minhas habilidades e desenvolver soluções
+              eficientes.
+            </p>
+          </div>
+          <div class="statistics-section">
+            <div class="statistic-item">
+              <p class="number">24<span class="plus">+</span></p>
+              <p class="description">Projetos <br>Completados</p>
+            </div>
+            <div class="statistic-item">
+              <p class="number">80<span class="percentage">%</span></p>
+              <p class="description">Satisfação de <br>Clientes</p>
+            </div>
+            <div class="statistic-item">
+              <p class="number">4<span class="plus">+</span></p>
+              <p class="description">Anos de <br>Experiência</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="abilities">
+        <h1 class="ability-logo">Habilidades</h1>
+        <div class="ability-item">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1" />
+            <path d="M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1" />
+          </svg>
+          <div class="ability-details">
+            <div class="ability-title">Linguagens de Programação</div>
+            <div class="ability-subtitle">JavaScript, TypeScript</div>
+          </div>
+          <div class="ability-duration">DESTAQUE</div>
+        </div>
+        <div class="ability-item">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22v-9" />
+            <path
+              d="M15.17 2.21a1.67 1.67 0 0 1 1.63 0L21 4.57a1.93 1.93 0 0 1 0 3.36L8.82 14.79a1.655 1.655 0 0 1-1.64 0L3 12.43a1.93 1.93 0 0 1 0-3.36z" />
+            <path
+              d="M20 13v3.87a2.06 2.06 0 0 1-1.11 1.83l-6 3.08a1.93 1.93 0 0 1-1.78 0l-6-3.08A2.06 2.06 0 0 1 4 16.87V13" />
+            <path
+              d="M21 12.43a1.93 1.93 0 0 0 0-3.36L8.83 2.2a1.64 1.64 0 0 0-1.63 0L3 4.57a1.93 1.93 0 0 0 0 3.36l12.18 6.86a1.636 1.636 0 0 0 1.63 0z" />
+          </svg>
+          <div class="ability-details">
+            <div class="ability-title">Frameworks e Runtimes</div>
+            <div class="ability-subtitle">
+              Node.js, NestJS, Express, Fastify
+            </div>
+          </div>
+          <div class="ability-duration">FOCO</div>
+        </div>
+        <div class="ability-item">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <ellipse cx="12" cy="5" rx="9" ry="3" />
+            <path d="M3 5V19A9 3 0 0 0 15 21.84" />
+            <path d="M21 5V8" />
+            <path d="M21 12L18 17H22L19 22" />
+            <path d="M3 12A9 3 0 0 0 14.59 14.87" />
+          </svg>
+          <div class="ability-details">
+            <div class="ability-title">Bancos de Dados</div>
+            <div class="ability-subtitle">
+              PostgreSQL, MySQL, MongoDB, Redis
+            </div>
+          </div>
+          <div class="ability-duration">ARMAZENAMENTO</div>
+        </div>
+        <div class="ability-item">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M10 15h4" />
+            <path
+              d="m14.817 10.995-.971-1.45 1.034-1.232a2 2 0 0 0-2.025-3.238l-1.82.364L9.91 3.885a2 2 0 0 0-3.625.748L6.141 6.55l-1.725.426a2 2 0 0 0-.19 3.756l.657.27" />
+            <path d="m18.822 10.995 2.26-5.38a1 1 0 0 0-.557-1.318L16.954 2.9a1 1 0 0 0-1.281.533l-.924 2.122" />
+            <path d="M4 12.006A1 1 0 0 1 4.994 11H19a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z" />
+          </svg>
+          <div class="ability-details">
+            <div class="ability-title">ORMs e Ferramentas</div>
+            <div class="ability-subtitle">TypeORM, Prisma, Git, Docker</div>
+          </div>
+          <div class="ability-duration">PRODUÇÃO</div>
+        </div>
+        <div class="ability-item">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 12h.01" />
+            <path d="M16 12h.01" />
+            <path d="m17 7 5 5-5 5" />
+            <path d="m7 7-5 5 5 5" />
+            <path d="M8 12h.01" />
+          </svg>
+          <div class="ability-details">
+            <div class="ability-title">APIs e Formatos de Dados</div>
+            <div class="ability-subtitle">REST, GraphQL, JSON, YAML</div>
+          </div>
+          <div class="ability-duration">COMUNICAÇÃO</div>
+        </div>
+        <div class="ability-item">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 24 24" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M20 10a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2.5a1 1 0 0 1-.8-.4l-.9-1.2A1 1 0 0 0 15 3h-2a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z" />
+            <path
+              d="M20 21a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-2.9a1 1 0 0 1-.88-.55l-.42-.85a1 1 0 0 0-.92-.6H13a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z" />
+            <path d="M3 5a2 2 0 0 0 2 2h3" />
+            <path d="M3 3v13a2 2 0 0 0 2 2h3" />
+          </svg>
+          <div class="ability-details">
+            <div class="ability-title">Boas Práticas e Arquitetura</div>
+            <div class="ability-subtitle">SOLID, MVC, Clean Code</div>
+          </div>
+          <div class="ability-duration">QUALIDADE</div>
+        </div>
+      </section>
+      <section class="project" id="project">
+        <h1 class="project-title">Meus Projetos</h1>
+        <h2 class="project-subtitle">E-Commerce API</h2>
+        <div class="tags">
+          <span>TypeScript</span>
+          <span>NestJS</span>
+          <span>TypeORM</span>
+          <span>JWT</span>
+          <span>PostgreSQL</span>
+          <span>Bcrypt</span>
+        </div>
+        <p>
+          <strong>API REST</strong> completa para e-commerce desenvolvida com
+          <strong>NestJS</strong>, <strong>TypeScript</strong> e
+          <strong>PostgreSQL</strong>. O projeto implementa um sistema robusto
+          de autenticação <strong>JWT</strong> com roles de usuário,
+          <strong>CRUD</strong> completo para produtos e categorias, carrinho de
+          compras funcional e processamento de pedidos.
+        </p>
+        <div class="buttons">
+          <a href="https://github.com/Anderson-Freire/E-commerce-API" target="_blank" class="btn">Confira o
+            projeto
+          </a>
+        </div>
+      </section>
+      <section class="project">
+        <h2>GestorPublico-API</h2>
+        <div class="tags">
+          <span>JavaScript</span>
+          <span>Node.js</span>
+          <span>MySQL</span>
+          <span>Nodemailer</span>
+          <span>JWT</span>
+          <span>Bcrypt</span>
+        </div>
+        <p>
+          Esta é uma aplicação backend desenvolvida em
+          <strong>Node.Js</strong> e <strong>Express</strong> para administração
+          municipal. O sistema oferece autenticação segura com
+          <strong>JWT</strong>, gerenciamento de usuários com diferentes níveis
+          de permissão (admin/user), e um módulo completo para reclamações
+          públicas.
+        </p>
+        <div class="buttons">
+          <a href="https://github.com/Anderson-Freire/GestorPublico-API" target="_blank" class="btn">Confira o
+            projeto
+          </a>
+        </div>
+      </section>
+      <section class="project">
+        <h2>Premium-platform</h2>
+        <div class="tags">
+          <span>NestJS</span>
+          <span>TypeScript</span>
+          <span>Redis</span>
+          <span>Docker</span>
+          <span>Nodemailer</span>
+          <span>PostgreSQL</span>
+        </div>
+        <p>
+          <strong>API REST</strong> robusta desenvolvida com
+          <strong>NestJS</strong>, <strong>TypeScript</strong> e
+          <strong>PostgreSQL</strong>, com foco em arquitetura limpa e
+          escalabilidade. O projeto inclui autenticação <strong>JWT</strong> com
+          blacklist de tokens, sistema de <strong>roles</strong> (admin e
+          usuário), gerenciamento de assinaturas premium, integração com
+          <strong>Redis</strong> para cache e sessões, e envio de e-mails via
+          <strong>Nodemailer</strong>, seguindo princípios
+          <strong>SOLID</strong> e boas práticas de desenvolvimento.
+        </p>
+        <div class="buttons">
+          <a href="https://github.com/Anderson-Freire/Premium-platform" target="_blank" class="btn">Confira o
+            projeto
+          </a>
+        </div>
+      </section>
+      <hr />
+      <section class="contact-me" id="contact-me">
+        <h2 class="contact-label">Contato</h2>
+        <form action="https://formsubmit.co/andersongomesfreire566788@gmail.com" method="POST" class="contact-display">
+          <div class="contact-desc">
+            <h1 class="contact-title">
+              Você tem um projeto? <br />
+              Entre em contato e vamos conversar!
+            </h1>
+            <div class="send-email">
+              <button class="send-button">Enviar</button>
+            </div>
+          </div>
+          <div class="contact-form">
+            <div class="form-group">
+              <label for="name">Nome:</label>
+              <input type="text" name="name" id="name" class="input-line" placeholder="insira seu nome aqui" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="text" name="email" id="email" class="input-line" placeholder="insira o seu email aqui" />
+            </div>
+            <div class="form-group message-group">
+              <label for="message">Mensagem:</label>
+              <textarea name="message" id="message" class="input-line"
+                placeholder="escreva sua mensagem aqui"></textarea>
+            </div>
+            <input type="hidden" name="_next" value=""> <!-- quando tiver um dominio -->
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="max-content">
+      <h3 class="footer-information">Anderson Freire</h3>
+      <p class="footer-information"><em>Conectando criatividade e tecnologia para resultados extraordinários.</em></p>
+      <div class="buttons">
+        <a href="mailto:andersongomesfreire566788@gmail.com" class="link-icons">
+          <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M256 352c-16.53 0-33.06-5.422-47.16-16.41L0 173.2V400C0 426.5 21.49 448 48 448h416c26.51 0 48-21.49 48-48V173.2l-208.8 162.5C289.1 346.6 272.5 352 256 352zM16.29 145.3l212.2 165.1c16.19 12.6 38.87 12.6 55.06 0l212.2-165.1C505.1 137.3 512 125 512 112C512 85.49 490.5 64 464 64h-416C21.49 64 0 85.49 0 112C0 125 6.01 137.3 16.29 145.3z" />
+          </svg>
+        </a>
+        <a href="https://github.com/Anderson-Freire" target="_blank" class="link-icons">
+          <svg enable-background="new 0 0 32 32" version="1.0" viewBox="0 0 32 32" xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path clip-rule="evenodd"
+              d="M16.003,0C7.17,0,0.008,7.162,0.008,15.997  c0,7.067,4.582,13.063,10.94,15.179c0.8,0.146,1.052-0.328,1.052-0.752c0-0.38,0.008-1.442,0-2.777  c-4.449,0.967-5.371-2.107-5.371-2.107c-0.727-1.848-1.775-2.34-1.775-2.34c-1.452-0.992,0.109-0.973,0.109-0.973  c1.605,0.113,2.451,1.649,2.451,1.649c1.427,2.443,3.743,1.737,4.654,1.329c0.146-1.034,0.56-1.739,1.017-2.139  c-3.552-0.404-7.286-1.776-7.286-7.906c0-1.747,0.623-3.174,1.646-4.292C7.28,10.464,6.73,8.837,7.602,6.634  c0,0,1.343-0.43,4.398,1.641c1.276-0.355,2.645-0.532,4.005-0.538c1.359,0.006,2.727,0.183,4.005,0.538  c3.055-2.07,4.396-1.641,4.396-1.641c0.872,2.203,0.323,3.83,0.159,4.234c1.023,1.118,1.644,2.545,1.644,4.292  c0,6.146-3.74,7.498-7.304,7.893C19.479,23.548,20,24.508,20,26c0,2,0,3.902,0,4.428c0,0.428,0.258,0.901,1.07,0.746  C27.422,29.055,32,23.062,32,15.997C32,7.162,24.838,0,16.003,0z"
+              fill-rule="evenodd" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/anderson-freire-6b5594209/" target="_blank" class="link-icons">
+          <svg style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1"
+            viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+            xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path
+              d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </div>
+  <script src="mobile-navbar.js"></script>
+</body>
+
+</html>
