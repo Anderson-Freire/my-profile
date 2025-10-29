@@ -361,7 +361,7 @@
         </div>
       </section>
       <section class="project">
-        <h2>GestorPublico-API</h2>
+        <h2 class="project-subtitle">GestorPublico-API</h2>
         <div class="tags">
           <span>JavaScript</span>
           <span>Node.js</span>
@@ -385,7 +385,7 @@
         </div>
       </section>
       <section class="project">
-        <h2>Premium-platform</h2>
+        <h2 class="project-subtitle">Premium-platform</h2>
         <div class="tags">
           <span>NestJS</span>
           <span>TypeScript</span>
@@ -414,31 +414,38 @@
       <hr />
       <section class="contact-me" id="contact-me">
         <h2 class="contact-label">Contato</h2>
-        <form action="https://formsubmit.co/eucaynnan@gmail.com" method="POST" class="contact-display">
+
+        <form id="contact-form" class="contact-display">
           <div class="contact-desc">
             <h1 class="contact-title">
               Você tem um projeto? <br />
               Entre em contato e vamos conversar!
             </h1>
+
             <div class="send-email">
-              <button class="send-button">Enviar</button>
+              <button type="submit" class="send-button">Enviar</button>
             </div>
           </div>
+
           <div class="contact-form">
             <div class="form-group">
               <label for="name">Nome:</label>
-              <input type="text" name="name" id="name" class="input-line" placeholder="insira seu nome aqui" />
+              <input type="text" name="name" id="name" class="input-line" placeholder="Insira seu nome aqui" required />
             </div>
+
             <div class="form-group">
               <label for="email">Email:</label>
-              <input type="text" name="email" id="email" class="input-line" placeholder="insira o seu email aqui" />
+              <input type="email" name="email" id="email" class="input-line" placeholder="Insira o seu email aqui"
+                required />
             </div>
+
             <div class="form-group message-group">
               <label for="message">Mensagem:</label>
-              <textarea name="message" id="message" class="input-line"
-                placeholder="escreva sua mensagem aqui"></textarea>
+              <textarea name="message" id="message" class="input-line" placeholder="Escreva sua mensagem aqui"
+                required></textarea>
             </div>
-            <input type="hidden" name="_next" value="https://anderson-freire.github.io/my-profile/">
+
+            <input type="hidden" name="time" value="Mar 10 2025 08:46">
           </div>
         </form>
       </section>
@@ -473,6 +480,32 @@
     </footer>
   </div>
   <script src="mobile-navbar.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init({
+        publicKey: "oncPuRJ8FVDWglQCW",
+      });
+    })();
+
+    window.onload = function () {
+      const form = document.getElementById("contact-form");
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        emailjs.sendForm("service_ln50zzu", "template_oju93mq", form)
+          .then(() => {
+            alert("Mensagem enviada com sucesso!");
+            form.reset();
+          })
+          .catch((error) => {
+            alert("Erro ao enviar. Tente novamente.");
+            console.error("FAILED...", error);
+          });
+      });
+    };
+  </script>
 </body>
 
 </html>
