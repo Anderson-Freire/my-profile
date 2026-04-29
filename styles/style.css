@@ -883,10 +883,12 @@ section {
   padding: 0.6rem 0;
   border-bottom: 1px solid var(--glass-border-hover);
   transition: all 0.3s ease;
+  word-break: break-all;
 }
 
 .contact-links a svg {
   color: var(--primary-color);
+  flex-shrink: 0;
 }
 
 .contact-links a:hover {
@@ -1098,7 +1100,7 @@ footer {
   }
 
   .contact-card {
-    padding: 30px;
+    padding: 1.5rem;
     gap: 1.5rem;
   }
 
@@ -1154,7 +1156,7 @@ footer {
   }
 
   .contact-card {
-    padding: 30px;
-    gap: 1.5rem;
+    padding: 1.25rem;
+    gap: 1.25rem;
   }
 }
