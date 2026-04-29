@@ -1098,7 +1098,7 @@ footer {
   }
 
   .contact-card {
-    padding: 15px;
+    padding: 10px;
     gap: 1.5rem;
   }
 
@@ -1151,5 +1151,10 @@ footer {
 
   .metric-number {
     font-size: 1.6rem;
+  }
+
+  .contact-card {
+    padding: 15px;
+    gap: 1.5rem;
   }
 }
